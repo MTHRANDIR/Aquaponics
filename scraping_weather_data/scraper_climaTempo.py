@@ -6,7 +6,7 @@ from datetime import datetime
 
 today_date = datetime.now()
 con = sqlite3.connect('dsa.db')
-site="https://www.climatempo.com.br/previsao-do-tempo/15-dias/cidade/484/mairipora-sp"
+site="https://www.climatempo.com.br/previsao-do-tempo/15-dias/cidade/558/saopaulo-sp"
 
 url = requests.get(site)
 page = url.text
